@@ -35,3 +35,5 @@ Replicate Q2 marketing strategy in other quarters
 Investigate product performance variations by region 
 
 screenshots 
+<img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/347b63d3-8ff9-47f0-9221-7c31be2aed26" />
+
