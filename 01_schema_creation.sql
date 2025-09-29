@@ -3,6 +3,7 @@ CREATE TABLE customers (
     customer_id SERIAL PRIMARY KEY,
     name VARCHAR(100),
     region VARCHAR(50)
+    signup_date DATE
 );
 
 CREATE TABLE products (
