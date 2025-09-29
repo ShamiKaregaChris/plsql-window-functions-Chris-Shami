@@ -17,4 +17,3 @@ FROM (
     GROUP BY TO_CHAR(sale_date, 'YYYY-MM')
 ) AS monthly_sales
 ORDER BY sale_month;
-~
