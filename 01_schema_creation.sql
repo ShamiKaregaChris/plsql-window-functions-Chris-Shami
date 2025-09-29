@@ -10,6 +10,7 @@ CREATE TABLE products (
     product_id SERIAL PRIMARY KEY,
     name VARCHAR(100),
     category VARCHAR(50)
+     price NUMERIC(10,2)
 );
 
 
@@ -20,6 +21,10 @@ CREATE TABLE transactions (
     category VARCHAR(20),
     sale_date DATE,
     quantity INT,
-    amount NUMERIC
+    amount NUMERIC(10,2)
 );
 
+CREATE INDEX idx_transactions_date ON transactions(sale_date);
+CREATE INDEX idx_transactions_customer ON transactions(customer_id);
+CREATE INDEX idx_transactions_product ON transactions(product_id);
+CREATE INDEX idx_customers_region ON customers(region);
