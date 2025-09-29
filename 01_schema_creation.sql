@@ -9,17 +9,16 @@ CREATE TABLE customers (
 
 CREATE TABLE products (
     product_id SERIAL PRIMARY KEY,
-    name VARCHAR(100),
-    category VARCHAR(50)
-     price NUMERIC(10,2)
+    name VARCHAR(100) NOT NULL,
+    category VARCHAR(50),
+    price NUMERIC(10,2)
 );
 
 
 CREATE TABLE transactions (
     transaction_id SERIAL PRIMARY KEY,
-    customer_id INT REFERENCES customers(customer_id),
-    product_id INT REFERENCES products(product_id),
-    category VARCHAR(20),
+    customer_id INT REFERENCES customers(customer_id) ON DELETE CASCADE,
+    product_id INT REFERENCES products(product_id) ON DELETE CASCADE,
     sale_date DATE,
     quantity INT,
     amount NUMERIC(10,2)
