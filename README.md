@@ -63,5 +63,6 @@ https://www.youtube.com/results?search_query=how+to+add+code+in+visual+studio+to
 Pgadmin 4
 https://www.youtube.com/watch?v=tRZGeaHPoaw&t=1957s into to GIT AND GITHUB
 GOOGLE RESEARCH
-
+https://www.youtube.com/watch?v=K942H-5MW4w 
+https://www.w3schools.com/
 
