@@ -1,10 +1,11 @@
 -- Create database tables for Café Kivu business
 CREATE TABLE customers (
     customer_id SERIAL PRIMARY KEY,
-    name VARCHAR(100),
-    region VARCHAR(50)
+    name VARCHAR(100) NOT NULL,
+    region VARCHAR(50),
     signup_date DATE
 );
+
 
 CREATE TABLE products (
     product_id SERIAL PRIMARY KEY,
