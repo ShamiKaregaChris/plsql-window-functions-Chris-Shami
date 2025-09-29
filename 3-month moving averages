@@ -1,0 +1,16 @@
+-- Success Criteria 5: 3-month moving average of sales using AVG() OVER()
+SELECT 
+    sales_month,
+    monthly_sales,
+    AVG(monthly_sales) OVER (
+        ORDER BY sales_month 
+        ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
+    ) as moving_avg_3month
+FROM (
+    SELECT 
+        TO_CHAR(sale_date, 'YYYY-MM') as sales_month,
+        SUM(amount) as monthly_sales
+    FROM transactions
+    GROUP BY TO_CHAR(sale_date, 'YYYY-MM')
+) AS monthly_data
+ORDER BY sales_month;
