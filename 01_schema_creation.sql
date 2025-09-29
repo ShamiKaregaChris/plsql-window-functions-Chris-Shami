@@ -11,3 +11,8 @@ CREATE TABLE products (
     category VARCHAR(50)
 );
 
+CREATE TABLE transactions (
+    transaction_id SERIAL PRIMARY KEY,
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
+    category VARCHAR(50)
+
