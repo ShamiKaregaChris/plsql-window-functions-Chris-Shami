@@ -66,3 +66,4 @@ GOOGLE RESEARCH
 https://www.youtube.com/watch?v=K942H-5MW4w 
 https://www.w3schools.com/
 
+Philipians 4:13 I can do all things through Christ who strengthens me
