@@ -1,10 +1,10 @@
 # plsql-window-functions-Chris-Shami
+ step 1
 Business Context:
 
 Company: "Café Kivu," a Rwandan specialty coffee retailer.
 
 Department: Sales & Marketing.
-
 Industry: Retail / E-commerce.
 
 #Data Challenge:
