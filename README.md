@@ -57,3 +57,11 @@ screenshots
 <img width="1919" height="1003" alt="Image" src="https://github.com/user-attachments/assets/4823fe25-e05d-43c7-a6ab-5e2c65c84434" />
 <img width="1914" height="1004" alt="Image" src="https://github.com/user-attachments/assets/62a4b97f-1b10-460d-8ec4-24dbcc89010a" />
 
+REFERENCES: 
+https://www.youtube.com/watch?v=lS65X0U1rp4 adding images to git hub
+https://www.youtube.com/results?search_query=how+to+add+code+in+visual+studio+to+github
+Pgadmin 4
+https://www.youtube.com/watch?v=tRZGeaHPoaw&t=1957s into to GIT AND GITHUB
+GOOGLE RESEARCH
+
+
